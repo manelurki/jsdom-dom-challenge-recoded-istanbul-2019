@@ -25,6 +25,13 @@ function decrease(){
 }
 function pause(){
   let btn=document.getElementByTagName('button')
-  let pause=document.getElementById("pause")
-  if (pause)
+  let pausee=document.getElementById("pause")
+  if (pausee.innerText=='pause'){
+    clearInterval(time)
+  for(let btnn=0;btn<btn.length;btn++)
+    
+     if (btn[btnn].id!='pause'){
+       
+     }
+  }
 }
