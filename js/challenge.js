@@ -19,5 +19,6 @@ function decrease(){
 }function heart(){
   let ul=document.querySelector('ul')
   let li=document.createElement('li')
-  let result1=parseInt(num.innerText)
+  let result2=parseInt(num.innerText)
+  li.innerHtml=s+"lik"
 }
