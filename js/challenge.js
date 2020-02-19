@@ -18,5 +18,6 @@ function decrease(){
   num.innerText=result+1;
 }function heart(){
   let ul=document.querySelector('ul')
-  let li=document.querySelector('ul')
+  let li=document.createElement('li')
+  let result1=parseInt(num.innerText)
 }
