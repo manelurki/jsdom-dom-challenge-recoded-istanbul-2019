@@ -16,4 +16,7 @@ function decrease(){
 }function increase(){
   let result=parseInt(num.innerText)
   num.innerText=result+1;
+}function heart(){
+  let result=parseInt(num.innerText)
+  num.innerText=result+1;
 }
