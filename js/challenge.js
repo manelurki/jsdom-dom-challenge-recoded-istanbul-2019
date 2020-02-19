@@ -23,3 +23,8 @@ function decrease(){
   li.innerHtml=s+"1 like"
   ul.appendChild(li)
 }
+function pause(){
+  let btn=document.getElementByTagName('button')
+  let pause=document.getElementById("pause")
+  if (pause)
+}
