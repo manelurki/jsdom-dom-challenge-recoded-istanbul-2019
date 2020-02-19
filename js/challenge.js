@@ -20,5 +20,6 @@ function decrease(){
   let ul=document.querySelector('ul')
   let li=document.createElement('li')
   let result2=parseInt(num.innerText)
-  li.innerHtml=s+"lik"
+  li.innerHtml=s+"1 like"
+  ul.appendChild(li)
 }
