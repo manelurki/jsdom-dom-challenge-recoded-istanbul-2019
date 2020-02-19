@@ -18,5 +18,5 @@ function decrease(){
   num.innerText=result+1;
 }function heart(){
   let ul=document.querySelector('ul')
- 
+  let li=document.querySelector('ul')
 }
