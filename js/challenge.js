@@ -31,7 +31,7 @@ function pause(){
   for(let btnn=0;btn<btn.length;btn++)
     
      if (btn[btnn].id!='pause'){
-       
+       btn[btnn].disabled=true;
      }
   }
 }
