@@ -12,4 +12,5 @@ document.getElementById("pause").addEventListener("click",pause);
 document.getElementById("submit").addEventListener("click",addComment);
 function decrease(){
   let result=parseInt(num.innerText)
+  num.innerText=result-1;
 }
