@@ -14,9 +14,9 @@ function decrease(){
   let result=parseInt(num.innerText)
   num.innerText=result-1;
 }function increase(){
-  let result=parseInt(num.innerText)
+  let result1=parseInt(num.innerText)
   num.innerText=result+1;
 }function heart(){
-  let result=parseInt(num.innerText)
+  let result2=document.querySelector('ul')
   num.innerText=result+1;
 }
